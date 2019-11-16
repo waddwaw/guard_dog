@@ -34,9 +34,7 @@ func main() {
 	runtime.GOMAXPROCS(runtime.NumCPU())
 	flag.Parse()
 	
-	fmt.Println("======= 欢迎使用旭华科技服务器看门狗 =======")
-	fmt.Println("======= ======================== =======")
-	fmt.Println("唐山旭华智能科技有限公司 http://www.sunvua.com")
+	fmt.Println("======= 欢迎使用服务器看门狗 =======")
 	fmt.Println("======= ======================== =======")
 
 	//显示公司logo 延迟2秒
